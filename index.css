@@ -97,3 +97,8 @@ transition: filter 0.5s;
 /*efeito ao colocar o mouse em cima*/
 outline: none;
     }
+
+img{
+    display: flex;
+    justify-content: center;
+}
