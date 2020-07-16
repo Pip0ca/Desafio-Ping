@@ -22,17 +22,19 @@ header img{
     /*espaçamento em baixo*/
 }
 
-header h1 {
-    display: flex;
-    justify-content: center;
+header .titulo{
+    text-align: center;
     /*ajuste para ficar no meio*/
+}
+
+header h1 {
     color:gray;
     font-weight: 300;
     /*ajuste de negrito*/
 }
 
 header h1 span{
-    margin-left: 5px;
+    margin-left: 4px;
     color: black;
     font-weight: 800;
     /*ajuste de negrito*/
@@ -54,6 +56,7 @@ header h4{
 main{
     display: flex;
     justify-content: center;
+    margin-bottom: 40px;
 }
 
 main input {
@@ -98,7 +101,12 @@ transition: filter 0.5s;
 outline: none;
     }
 
-img{
-    display: flex;
-    justify-content: center;
+.imgs{
+    text-align: center;
+}
+
+.ilustracao img{
+max-width:800px;
+max-height:800px;
+
 }
