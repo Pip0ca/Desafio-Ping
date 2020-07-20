@@ -10,7 +10,7 @@ font-family: 'Libre Franklin', sans-serif;
 
 #page-home{
 background-color: white;
-margin: 60px 0 ;
+margin: 50px 0 ;
 /*50px top e 0 para lado esquerdo*/
 }
 
@@ -31,11 +31,11 @@ header h1 {
     color:gray;
     font-weight: 300;
     /*ajuste de negrito*/
+    font-size: 27px;
 }
 
 header h1 span{
-    margin-left: 4px;
-    color: black;
+     color: black;
     font-weight: 800;
     /*ajuste de negrito*/
     margin-bottom: 5px;
@@ -71,7 +71,8 @@ main input {
     /*aumenta a caixa do input*/
     font-size: 14px;
     /*aumenta o texto dentro do input*/
-    width: 350px;
+    width: 50%;
+    max-width: 350px;
     /*arrumando dentro do input*/
     /*text-align: center;
      arrumando a escrita para começar apartir do meio*/
