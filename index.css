@@ -37,12 +37,12 @@ header h1 {
 header h1 span{
      color: black;
     font-weight: 800;
-    /*ajuste de negrito*/
-    margin-bottom: 5px;
-    /*espaçamento em baixo*/
+    /*ajuste de negrito*/ 
 }
 
 header h4{
+    margin-top: 8px;
+    /*margem topo*/
     display: flex;
     justify-content: center;
     /*ajuste para ficar no meio*/
@@ -51,6 +51,7 @@ header h4{
     color: black;
     margin-bottom: 30px;
     /*espaçamento em baixo*/
+    font-size: 14px;
 }
 
 main{
@@ -109,5 +110,11 @@ outline: none;
 .ilustracao img{
 max-width:800px;
 max-height:800px;
+}
 
+@media screen and (max-width:886px){
+    .ilustracao img{
+        height: 250px;
+        width: 300px;
+    }
 }
