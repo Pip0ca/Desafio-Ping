@@ -27,9 +27,14 @@
 
         <main>
 
-            <input type="email" id="email" placeholder="Your email address..." onchange="submeter()">
+            <div class="form-group">
+            <input type="email" id="email" placeholder="Your email address..."  onfocus="redefinirMsg()">
+            <!--onblur evento que usamos para saber quando usuario sai do input 
+            onfocus para nao ficar a mensagem toda hora-->
             <button onclick="enviar()">Notify Me</button>
-            <h5 id="erro"></h5>
+            </div>
+            <span id="error-email"></span>
+            
 
         </main>
 
